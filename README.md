@@ -42,7 +42,7 @@ Sigmoid activation: Produces a probability score between 0 and 1 for binary clas
 ImageTextCGAN
 The ImageTextCGAN class combines the generator and discriminator into a single model. It takes both text and image inputs and generates an output image while also predicting its authenticity.
 
-Usage
+## Usage
 To use the CGAN model, follow these steps:
 
 Initialize the CGAN model by creating an instance of the ImageTextCGAN class with the desired hyperparameters.
@@ -83,6 +83,6 @@ print(validity.shape)  # Output shape: (1, 1)
 
 Replace the placeholder values with actual data to use the CGAN for your specific task.
 
-Conclusion
+### Conclusion
 This repository provides an implementation of a Conditional Generative Adversarial Network (CGAN) for fusing image and text data. The model can be used for various applications, such as generating images based on text descriptions or enhancing image generation by incorporating textual context. Feel free to explore and modify the code to suit your needs!
 
